@@ -2,6 +2,7 @@
 # **Proyecto Final: Visión Artificial**
 
 ## **Título:** *ET: Rumbo a Casa*
+## [Ver prototipo interactivo en p5.js](https://editor.p5js.org/arturito745/full/WF90umiLL)
 
 **Integrantes:** Sebastián Pedroza y Ricardo Guerrero
 
