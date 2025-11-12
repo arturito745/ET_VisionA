@@ -21,18 +21,21 @@ El universo, las estrellas y la luna son elementos esenciales, pues en *E.T.* el
 
 ## **Etapa de Diseño (40%)**
 
-### **Investigación y referentes (10%)**
+### **Investigación y referentes**
 
 El referente principal es la **película *E.T. el Extraterrestre*** (Steven Spielberg, 1982), de donde se toma la metáfora del dedo que brilla como conexión entre mundos.
 Desde lo técnico, se explora el uso del modelo **ml5.js HandPose**, basado en MediaPipe, para detectar las posiciones de los dedos y generar respuestas visuales interactivas.
 
 El enfoque artístico se orienta hacia **crear una experiencia sensorial y colaborativa**, donde los usuarios generan energía cósmica y forman una luna a partir de sus movimientos. La unión de ambas manos activa procesos visuales como **explosiones de partículas, formaciones lunares y transiciones suaves (fade in / fade out)**, conectando lo técnico con lo poético.
 
-> “El dedo que brilla no sólo representa tecnología, sino empatía; no sólo señala, sino que conecta.”
+[![Escena clásica de ET](https://img.youtube.com/vi/gTVoFCP1BLg/0.jpg)](https://www.youtube.com/watch?v=gTVoFCP1BLg)
+
+[![Interacción con visión artificial y handpose](https://img.youtube.com/vi/yn_Bg0ps0d8/0.jpg)](https://www.youtube.com/watch?v=yn_Bg0ps0d8)
+
 
 ---
 
-### **Diseño conceptual (15%)**
+### **Diseño conceptual**
 
 El proyecto se divide en tres fases que narran un **viaje simbólico**:
 
@@ -45,7 +48,7 @@ Cada una de estas etapas combina **interacción corporal y narrativa visual**, i
 
 ---
 
-### **Planificación técnica (15%)**
+### **Planificación técnica**
 
 El proyecto fue implementado en **p5.js** con la librería **ml5.handPose()**, integrando detección de manos en tiempo real a través de la cámara.
 Desde el código base, se desarrollaron distintas funcionalidades personalizadas:
@@ -116,13 +119,13 @@ El proyecto integra correctamente la detección de manos y el cálculo de distan
 
 El código se optimizó para funcionar en tiempo real, priorizando la fluidez visual sobre la complejidad gráfica.
 
-### **Calidad visual (20%)**
+### **Calidad visual**
 
 El lenguaje visual se inspira en el **universo nocturno de E.T.**, con tonos oscuros, brillos, explosiones suaves y partículas flotantes. La formación de la luna representa el clímax visual del proyecto.
 
 El uso de gradientes, halos y luces dinámicas genera una atmósfera inmersiva y cinematográfica.
 
-### **Integración e interacción (15%)**
+### **Integración e interacción**
 
 El proyecto logra una interacción simbólica y emocional: dos personas deben **cooperar** para avanzar, reflejando el vínculo de la película.
 El sistema responde a los movimientos de las manos en tiempo real, generando una sensación de conexión viva entre los usuarios y el entorno visual.
