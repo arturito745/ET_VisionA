@@ -33,7 +33,7 @@ El enfoque artístico se orienta hacia **crear una experiencia sensorial y colab
 
 [![Interacción con visión artificial y handpose](https://img.youtube.com/vi/yn_Bg0ps0d8/0.jpg)](https://www.youtube.com/watch?v=yn_Bg0ps0d8)
 
-[![Referente](https://youtu.be/5uKmLMo0OlY?si=PB6OpiBEiE8Vusbl)
+[![Demo del proyecto](https://img.youtube.com/vi/5uKmLMo0OlY/0.jpg)](https://youtu.be/5uKmLMo0OlY?si=PB6OpiBEiE8Vusbl)
 
 ---
 
