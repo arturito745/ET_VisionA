@@ -20,19 +20,20 @@ El universo, las estrellas y la luna son elementos esenciales, pues en *E.T.* el
 
 ---
 
-## **Etapa de Diseño (40%)**
+## **Etapa de Diseño**
 
 ### **Investigación y referentes**
 
 El referente principal es la **película *E.T. el Extraterrestre*** (Steven Spielberg, 1982), de donde se toma la metáfora del dedo que brilla como conexión entre mundos.
 Desde lo técnico, se explora el uso del modelo **ml5.js HandPose**, basado en MediaPipe, para detectar las posiciones de los dedos y generar respuestas visuales interactivas.
 
-El enfoque artístico se orienta hacia **crear una experiencia sensorial y colaborativa**, donde los usuarios generan energía cósmica y forman una luna a partir de sus movimientos. La unión de ambas manos activa procesos visuales como **explosiones de partículas, formaciones lunares y transiciones suaves (fade in / fade out)**, conectando lo técnico con lo poético.
+El enfoque artístico se orienta hacia **crear una experiencia sensorial y colaborativa**, donde los usuarios generan energía cósmica y forman una luna a partir de sus movimientos. La unión de ambas manos activa procesos visuales como **explosiones de partículas, formaciones lunares y transiciones suaves (fade in / fade out)** .
 
 [![Escena clásica de ET](https://img.youtube.com/vi/gTVoFCP1BLg/0.jpg)](https://www.youtube.com/watch?v=gTVoFCP1BLg)
 
 [![Interacción con visión artificial y handpose](https://img.youtube.com/vi/yn_Bg0ps0d8/0.jpg)](https://www.youtube.com/watch?v=yn_Bg0ps0d8)
 
+[![Referente](https://youtu.be/5uKmLMo0OlY?si=PB6OpiBEiE8Vusbl)
 
 ---
 
