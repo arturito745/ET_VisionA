@@ -134,6 +134,4 @@ El sistema responde a los movimientos de las manos en tiempo real, generando una
 “ET: Rumbo a Casa” combina tecnología, narrativa y emoción en una experiencia interactiva que busca reconectar al espectador con el asombro infantil y la magia de la colaboración.
 La unión de la visión artificial y el arte digital permitió construir una historia visual donde el gesto humano se convierte en puente entre mundos.
 
----
 
-¿Quieres que te lo deje con formato **Markdown (para portafolio online o GitHub)** o que te lo pase listo en **PDF estilo informe con portada, subtítulos y texto limpio** para entregar al profe?
