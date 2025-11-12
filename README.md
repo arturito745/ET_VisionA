@@ -1,53 +1,139 @@
-# ET_VisionA
 
+# **Proyecto Final: Visión Artificial**
 
-## **1. Investigación y referentes**
+## **Título:** *ET: Rumbo a Casa*
 
-El proyecto surge del interés compartido de **Sebastián Pedroza** y **Ricardo Guerrero** por la película ***E.T. El Extraterrestre* (Steven Spielberg, 1982)**, una obra que marcó su infancia y que combina la ciencia ficción con la emotividad del vínculo entre un niño y un ser de otro mundo.
-A partir de esta inspiración, se buscó trasladar la simbología del **dedo luminoso de E.T.**, que representa conexión, empatía y sanación, hacia un entorno interactivo creado con **visión artificial**.
-
-Para lograrlo, se utilizó la técnica de **detección de manos (HandPose)** a través de la librería **ml5.js**, que permite rastrear en tiempo real los puntos clave de la mano humana. Esta técnica sirvió como base para recrear el gesto icónico del contacto entre E.T. y el niño, pero ahora dentro de un universo digital en el que la unión de los dedos **genera vida, planetas y energía**.
-
-Como referentes técnicos y artísticos se tuvieron en cuenta:
-
-* **“Augmented Hand Series”** – *Golan Levin, Chris Sugrue y Kyle McDonald (2014)*: instalación interactiva que transforma digitalmente las manos del usuario en criaturas mutantes, explorando la identidad y la extensión del cuerpo mediante visión artificial.
-* **“Hand Tracking with ml5.js – Interactive Gestures”** – ejemplos comunitarios en *The Coding Train* y *ml5.js demos*, donde la posición del dedo índice se usa como punto de control en entornos creativos.
-* **“Air Drawing – Gesture-Based Art Creation”** (2023): proyectos donde la unión o separación de los dedos genera trazos o efectos visuales en el aire, concepto base para el gesto de “crear planetas” en esta experiencia.
-
-Estos referentes muestran cómo la visión artificial puede integrarse en prácticas artísticas y emocionales, no solo como herramienta técnica sino como **medio simbólico de conexión entre humanos y tecnología**.
+**Integrantes:** Sebastián Pedroza y Ricardo Guerrero
 
 ---
 
-##  **2. Diseño conceptual **
+## **Presentación del proyecto**
 
-El concepto central del proyecto se titula **“Creación Cósmica: E.T. Connection”**, una experiencia interactiva inspirada en el vínculo entre **E.T. y Elliott**, donde los gestos de las manos de dos personas se convierten en el motor de la creación de un universo.
+El proyecto **“ET: Rumbo a Casa”** surge a partir de un interés compartido por la película *E.T. el Extraterrestre*, un clásico del cine que marcó a ambos integrantes. Sebastián Pedroza y Ricardo Guerrero decidieron tomar como inspiración la conexión emocional entre el niño y el alienígena, y especialmente la icónica escena en la que **E.T. ilumina su dedo** para sanar.
 
-La experiencia invita a **jugar en pareja**, evocando la complicidad de los protagonistas de la película. Al unir los dedos índices, como en la escena icónica del toque luminoso, **se genera energía cósmica**, dando origen a planetas y constelaciones.
-El **universo visual** (planetas girando, partículas de luz, la Luna como destino final) remite a los elementos más simbólicos de la película: la bicicleta volando frente a la luna y la sensación de ascenso hacia algo más grande y trascendente.
+A partir de esa idea, se escogió trabajar con la técnica de **visión artificial HandPose** (detección de la posición de los dedos), como una forma simbólica de recrear ese contacto entre ambos personajes, pero ahora desde la interacción humano-computador.
 
-El diseño busca **equilibrar lo emocional con lo sensorial**, convirtiendo el gesto en una metáfora de unión y creación compartida.
-La interfaz gestual transforma la pantalla en un espacio poético, donde **la amistad, la colaboración y la curiosidad científica** se materializan en forma de luz y movimiento.
+La experiencia está pensada para **dos personas**: cada jugador controla una mano frente a la cámara, y a través del movimiento y cercanía de sus dedos índices, se activa una serie de transiciones visuales que representan **la unión, la creación y el viaje hacia el cosmos**, reflejando la amistad y el vínculo que caracterizan la película.
 
----
-
-##  **3. Planificación técnica **
-
-El desarrollo del proyecto se planteó en tres fases principales, siguiendo una estructura que combina narrativa, interacción y progresión visual:
-
-1. **Fase Solar – Creación de Planetas:**
-   Se utiliza el modelo **ml5.handpose** para detectar las manos de ambos participantes. Cuando los índices se acercan, se activa un evento visual que genera un nuevo planeta, acompañado por un destello de luz o energía.
-
-2. **Fase E.T. – El Vuelo y los Obstáculos:**
-   Se recrea el recorrido del niño y E.T. volando hacia la Luna. El jugador controla el movimiento a través de la distancia entre los dedos, y debe evitar obstáculos mientras mantiene el equilibrio.
-
-3. **Fase Ascensión – Llegada a la Luna:**
-   Una secuencia final donde los planetas orbitan y la Luna aparece como símbolo de logro y unión. Se aplican efectos de transición suave (fade in / fade out) para dar una sensación de calma y cierre.
-
-El sistema está implementado con **JavaScript**, **p5.js** y **ml5.js**, usando una **detección en tiempo real de puntos clave de la mano**.
-La estructura modular del código permite ajustar fácilmente niveles, efectos o fases.
-Técnicamente es viable en cualquier navegador con cámara, y conceptualmente apuesta por **integrar tecnología, narrativa y emoción** en una misma experiencia.
+El universo, las estrellas y la luna son elementos esenciales, pues en *E.T.* el cielo nocturno es símbolo de hogar, distancia y reencuentro. Por eso, la **luna** tiene un papel central en el diseño visual del proyecto.
 
 ---
 
-¿Quieres que te lo deje en **formato informe (listo para entregar en Word o PDF)** con portada, subtítulos y una cita corta tipo APA al final?
-Puedo hacerlo en menos de un minuto con diseño limpio y lista la parte escrita.
+## **Etapa de Diseño (40%)**
+
+### **Investigación y referentes (10%)**
+
+El referente principal es la **película *E.T. el Extraterrestre*** (Steven Spielberg, 1982), de donde se toma la metáfora del dedo que brilla como conexión entre mundos.
+Desde lo técnico, se explora el uso del modelo **ml5.js HandPose**, basado en MediaPipe, para detectar las posiciones de los dedos y generar respuestas visuales interactivas.
+
+El enfoque artístico se orienta hacia **crear una experiencia sensorial y colaborativa**, donde los usuarios generan energía cósmica y forman una luna a partir de sus movimientos. La unión de ambas manos activa procesos visuales como **explosiones de partículas, formaciones lunares y transiciones suaves (fade in / fade out)**, conectando lo técnico con lo poético.
+
+> “El dedo que brilla no sólo representa tecnología, sino empatía; no sólo señala, sino que conecta.”
+
+---
+
+### **Diseño conceptual (15%)**
+
+El proyecto se divide en tres fases que narran un **viaje simbólico**:
+
+1. **Inicio:** Los jugadores deben unir sus dedos índices para iniciar la conexión y comenzar la experiencia.
+2. **Fase Solar (creación lunar):** Al acercar los dedos, se generan esferas de energía que poco a poco forman una **luna compuesta por partículas**, simbolizando la creación conjunta.
+3. **Fase ET (vuelo):** Inspirada en la escena de la bicicleta voladora, el jugador controla con sus dedos la altura de E.T. y su amigo, esquivando obstáculos mientras se dirigen hacia la luna.
+4. **Ascensión:** Una escena final donde la luna brilla y el universo se reinicia.
+
+Cada una de estas etapas combina **interacción corporal y narrativa visual**, integrando elementos como partículas, gradientes y efectos de luz. El diseño busca transmitir **emoción, colaboración y nostalgia**, más allá de una simple detección técnica.
+
+---
+
+### **Planificación técnica (15%)**
+
+El proyecto fue implementado en **p5.js** con la librería **ml5.handPose()**, integrando detección de manos en tiempo real a través de la cámara.
+Desde el código base, se desarrollaron distintas funcionalidades personalizadas:
+
+* **Reconocimiento de manos izquierda y derecha:**
+
+  ```js
+  function identifyHands() {
+    handLeft = null;
+    handRight = null;
+    if (hands.length >= 2) {
+      hands.sort((a, b) => a.keypoints[0].x - b.keypoints[0].x);
+      handRight = hands[0];
+      handLeft = hands[1];
+    }
+  }
+  ```
+
+* **Transición entre fases (fade in / fade out):**
+  Uno de los principales retos técnicos fue implementar transiciones suaves para que el cambio de escenas se sintiera fluido.
+
+  ```js
+  function startFadeTransition(nextState, type) {
+    fadeAlpha = type === "in" ? 255 : 0;
+    fadeType = type;
+    fadeInProgress = true;
+    fadeSpeed = 5;
+  }
+  ```
+
+* **Formación de la luna con partículas:**
+  Este fue uno de los ajustes más significativos, ya que originalmente el sistema era solar, pero se transformó en una **luna hecha de partículas** que emergen de la energía creada por las manos.
+
+  ```js
+  function startMoonFormation() {
+    moonFormation = true;
+    for (let i = 0; i < 100; i++) {
+      moonParticles.push({
+        x: random(width),
+        y: random(height),
+        targetX: width/2,
+        targetY: height/2
+      });
+    }
+  }
+  ```
+
+**Distribución del trabajo:**
+
+* *Sebastián Pedroza:* diseño visual, efectos de partículas, creación de la luna y pruebas estéticas.
+* *Ricardo Guerrero:* estructura general del código, transiciones entre fases y control del movimiento con distancia entre dedos.
+  Ambos trabajaron en conjunto en la calibración del modelo HandPose y la dirección creativa.
+
+**Principales retos:**
+
+* Lograr una detección estable con dos manos en simultáneo.
+* Sincronizar los eventos visuales según la distancia entre dedos.
+* Mantener una estética coherente con el universo de *E.T.*
+* Implementar las **transiciones con fade** sin romper el flujo del sketch.
+
+---
+
+## **Etapa de Implementación (60%)**
+
+### **Funcionamiento técnico (25%)**
+
+El proyecto integra correctamente la detección de manos y el cálculo de distancia entre dedos índices para controlar la experiencia. La lógica de fases, la creación de partículas y la física básica del movimiento fueron implementadas con éxito.
+
+El código se optimizó para funcionar en tiempo real, priorizando la fluidez visual sobre la complejidad gráfica.
+
+### **Calidad visual (20%)**
+
+El lenguaje visual se inspira en el **universo nocturno de E.T.**, con tonos oscuros, brillos, explosiones suaves y partículas flotantes. La formación de la luna representa el clímax visual del proyecto.
+
+El uso de gradientes, halos y luces dinámicas genera una atmósfera inmersiva y cinematográfica.
+
+### **Integración e interacción (15%)**
+
+El proyecto logra una interacción simbólica y emocional: dos personas deben **cooperar** para avanzar, reflejando el vínculo de la película.
+El sistema responde a los movimientos de las manos en tiempo real, generando una sensación de conexión viva entre los usuarios y el entorno visual.
+
+---
+
+## **Conclusión**
+
+“ET: Rumbo a Casa” combina tecnología, narrativa y emoción en una experiencia interactiva que busca reconectar al espectador con el asombro infantil y la magia de la colaboración.
+La unión de la visión artificial y el arte digital permitió construir una historia visual donde el gesto humano se convierte en puente entre mundos.
+
+---
+
+¿Quieres que te lo deje con formato **Markdown (para portafolio online o GitHub)** o que te lo pase listo en **PDF estilo informe con portada, subtítulos y texto limpio** para entregar al profe?
